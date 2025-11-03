@@ -141,8 +141,8 @@ initial begin
     clk = 0;
     load = 0;
     reset = 1'b1;         // Assert reset
-    M = 4'b0111;          // M = 7
-    Q = 4'b1011;          // Q = -5
+    M = 4'b0101;          // M = 5
+    Q = 4'b1001;          // Q = -7
 
     #20;
     load = 1;             // Load M and Q
@@ -164,12 +164,13 @@ endmodule
 ![image](https://github.com/user-attachments/assets/742744b0-15e9-4c7c-8e0e-13a77f25673e)
 
 ## Nclaunch Work Library Window
+<img width="1920" height="1080" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/c0487344-c5f1-4ad5-a135-ec2268d76240" />
 
-![Screenshot 2025-05-21 163301](https://github.com/user-attachments/assets/4dc3ff0b-9533-4acd-98d2-e24df31eb513)
 
 ## Simulation Results
 
-![Screenshot 2025-05-21 163243](https://github.com/user-attachments/assets/e7e22fcd-2e89-478a-9ccf-321bf9d6a07c)
+<img width="1920" height="1080" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/8d55ad45-375e-447a-86cf-6c01e01ad3ba" />
+
 
 
 ## Results
